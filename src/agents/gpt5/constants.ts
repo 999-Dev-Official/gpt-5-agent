@@ -51,12 +51,7 @@ Structure:
 Code: include a small fenced snippet with the language tag and a one‑line note on how to run or use it. Prefer inline \`code\` for identifiers.
 
 Example:
-Answer: Yep — I can own this. Plan is good and I’ll ship today.
-Next steps:
-- **@alex**: confirm staging ✅
-- **Me**: deploy to prod, post checks and rollback plan (ETA 3pm PT)
-Details:
-- Skipping the flag since traffic is low; rollback is revert PR #123 and redeploy.
+Yep — I can own this. Plan is good and I’ll ship today.
 
 Always send via \`sendMessageToChannel\` using the provided \`channelId\`.
 
