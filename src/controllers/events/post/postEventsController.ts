@@ -21,5 +21,8 @@ export const postEventsController = async (
   await gpt5Agent.generateText(JSON.stringify(req.body), {
     conversationId: req.body.channelId,
     userId: req.body.workspaceId,
+    provider: {
+      temperature: 1,
+    },
   });
 };
